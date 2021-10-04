@@ -1,46 +1,60 @@
-# Getting Started with Create React App
+## 🧪 Tecnologias
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+esse peojeto foi desenvolvido com as seguintes tecnologias
 
-## Available Scripts
+- [React](https://reactjs.org)
+- [Styled components](https://styled-components.com/)
+- [Firebase](https://firebase.google.com/)
+- [TypeScript](https://www.typescriptlang.org/)
 
-In the project directory, you can run:
+## 💻 Projeto
 
-### `yarn start`
+O BeTheHero é um projeto que visa conectar pessoas que desejam fazer contribuições monetárias a ONG's (Organizações não governamentais) que precisam de ajuda.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## 🚀 Como executar
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+Clone o projeto e acesse a pasta do mesmo.
 
-### `yarn test`
+```bash
+$ git clone https://github.com/nathanolinto/be-the-hero
+$ cd be-the-hero
+```
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Para iniciá-lo, siga os passos abaixo:
+```bash
+# Instalar as dependências
+$ yarn
 
-### `yarn build`
+# Iniciar o projeto
+$ yarn start
+```
+O app estará disponível no seu browser pelo endereço http://localhost:3000.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Lembrando que será necessário criar uma conta no [Firebase](https://firebase.google.com/) e um projeto para disponibilizar um Realtime Database.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Requisitos funcionais
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+1. A pagina inicial do projeto deve ser um lista dos casos e o total de casos
+2. Quando um caso for selecionado uma visão detalhada deve ser apresentada mostrando:
+    - caso (titulo do caso)
+    - Ong (Nome da Ong)
+    - Descrição do caso
+    - Valor
+    - Botão ao qual redireciona para o whatsApp
+    - Botão ao qual redireciona para o email
+3. A Ong deve ser capaz de criar uma conta e fazer login.
+    - Nome
+    - E-mail
+    - WhatsApp
+    - Cidade
+    - UF
+4. A Ong pode criar incidente
+    - titulo
+    - descrição
+    - valor gasto com o tratamento
+    
+[comment]: <> (## 🔖 Demo)
+[comment]: <> (Você pode visualizar o projeto funcionando através do link abaixo:)
+[comment]: <> (- [Be the hero](https://bethehero.web.app) )
 
-### `yarn eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+---
