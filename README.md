@@ -53,8 +53,4 @@ Lembrando que será necessário criar uma conta no [Firebase](https://firebase.g
     - descrição
     - valor gasto com o tratamento
     
-[comment]: <> (## 🔖 Demo)
-[comment]: <> (Você pode visualizar o projeto funcionando através do link abaixo:)
-[comment]: <> (- [Be the hero](https://bethehero.web.app) )
-
 ---
