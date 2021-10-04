@@ -16,8 +16,8 @@ O BeTheHero é um projeto que visa conectar pessoas que desejam fazer contribui�
 Clone o projeto e acesse a pasta do mesmo.
 
 ```bash
-$ git clone https://github.com/nathanolinto/be-the-hero
-$ cd be-the-hero
+$ git clone https://github.com/nathanolinto/bethehero
+$ cd bethehero
 ```
 
 Para iniciá-lo, siga os passos abaixo:
